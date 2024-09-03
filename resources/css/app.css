@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none !important;
+}
+
+#nprogress .bar {
+    height: 5px !important;
+}
+
+.swal-modal{
+    @apply rounded-2xl
+}
+
+.btn-outline{
+    @apply whitespace-nowrap flex gap-2 items-center justify-center bg-white hover:bg-gray-50 text-primary border border-primary px-4 py-2 rounded-lg disabled:opacity-60 disabled:cursor-not-allowed
+}
+
+.btn-ghost{
+    @apply flex gap-2 items-center
+}
+
+.btn-primary{
+    @apply whitespace-nowrap flex gap-2 items-center justify-center text-center font-medium bg-gradient-to-br from-secondary to-primary text-white rounded-lg px-4 py-2 hover:from-primary hover:to-primary disabled:opacity-60 disabled:cursor-not-allowed
+}
+
+
+.swal-modal .swal-text{
+    @apply text-gray-950 w-full flex justify-center flex-col items-center leading-relaxed text-center
+}
+
+.swal-modal .swal-title{
+    @apply text-lg
+}
+
+.swal-footer .swal-button--confirm{
+    @apply text-center font-medium bg-gradient-to-br from-secondary to-primary text-white rounded-lg px-4 py-2 block  disabled:opacity-70 disabled:cursor-not-allowed
+}
+
+.swal-modal .swal-footer{
+    @apply flex justify-center
+}
+.grid-auto-fill {
+    grid-template-columns: repeat(auto-fill, minmax(236px, 1fr));
+}
+
+.grid-item-full{
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.fi-ta-ctn{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.menu-active {
+    @apply bg-gradient-to-tr from-primary/90 to-secondary w-full text-white hover:text-white  flex justify-between gap-4 font-medium whitespace-nowrap text-left items-center hover:cursor-pointer py-2 rounded-lg px-3
+}
+
+.menu {
+    @apply w-full hover:text-primary hover:bg-gray-50 flex justify-between gap-4 font-medium whitespace-nowrap text-left items-center text-gray-500 py-2 rounded-lg px-3 hover:cursor-pointer
+}
+
+
+
+
+
+

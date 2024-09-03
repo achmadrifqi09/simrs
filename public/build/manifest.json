@@ -1,0 +1,17 @@
+{
+  "resources/assets/images/circles.svg": {
+    "file": "assets/circles-DcsD_7y9.svg",
+    "src": "resources/assets/images/circles.svg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-Cy8qhJe6.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CW4uk3pj.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
